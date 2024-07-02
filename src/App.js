@@ -12,7 +12,7 @@ const btnValues = [
   [1, 2, 3, "+"],
   [0, ".", "="],
 ];
-
+// new comment 
 // formatting string : what it does is take a number, format it into the string format and create the space separators for the thousand mark.
 const toLocaleString = (num) =>
   String(num).replace(/(?<!\..*)(\d)(?=(?:\d{3})+(?:\.|$))/g, "$1 ");
